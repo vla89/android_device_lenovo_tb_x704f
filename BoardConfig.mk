@@ -210,7 +210,7 @@ VENDOR_SECURITY_PATCH := 2018-10-01
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-SELINUX_IGNORE_NEVERALLOWS := true
+SELINUX_IGNORE_NEVERALLOWS := flase
 
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
